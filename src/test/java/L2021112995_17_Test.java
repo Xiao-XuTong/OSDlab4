@@ -34,7 +34,7 @@ public class L2021112995_17_Test {
         assertTrue(res2.contains("ACGAATTACG"));
 
         List<String> res3 = test.findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT");
-        assertTrue(res3.contains("DDAAAAACCCCC"));
+        assertTrue(res3.contains("AAAAACCCCC"));
         assertTrue(res3.contains("CCCCCAAAAA"));
         assertEquals(2,res3.size());
     }
